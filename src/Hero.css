@@ -1,0 +1,99 @@
+.container{
+    width: 100%;
+    height: 96vh;
+    background: url(./src/Image/hero-background.png);
+    background-position: center;
+    position: relative;
+}
+.TextDiv{
+    width: 65%;
+    height: 82%;
+    /* background: rgb(45, 0, 128); */
+    position: absolute;
+    margin: 7%;
+}
+.p1{
+   font-family : lato, sans-serif;
+   Font-weight: 500;
+   Line-height: normal;
+   color: rgb(236, 82, 66);
+   Font-size: 40px;
+}
+.p2{
+    font-size: 70px;
+    font-weight: 900;
+    line-height: normal;
+    font-family:  lato, sans-serif;
+    margin-bottom: 10px;
+    color: rgb(236, 82, 66);
+    /* background: url(src/Image/h1-background.jpg); */
+    /* background-clip: text; */
+    /* color: transparent; */
+    /* background: linear-gradient(to bottom, #ff0000, #00ff00); */
+
+
+}
+
+.p3{
+    font-family: lato, sans-serif;
+    Font-size: 16px;
+    Font-weight: 700;
+    Line-height: normal;
+    color: rgb(53, 53, 53);
+    margin-bottom: 10px;
+
+}
+.TextDiv h3{
+    font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    Font-size: 40px;
+    Font-weight: 700;
+    Line-height: normal;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+
+}
+.p4{
+    font-family: lato, sans-serif;
+    Font-size: 20px;
+    Font-weight: 400;
+    Line-height: normal;
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width:360px){
+    
+    .NavBar{
+      display: block;
+      padding: 20px;
+      background: none;
+    }
+    .p1{
+        font-size: 24px;
+    }
+    .p2{
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .p3{
+        font-weight: 500;
+
+    }
+    .container{
+        height: 100vh;
+        margin-bottom: 55%;
+    }
+    .TextDiv{
+        width: 80%;
+        height: max-content;
+        
+    }
+    .TextDiv h3{
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: 50px;
+
+    }
+    .p4{
+        font-size: 18px;
+    }
+  
+  }

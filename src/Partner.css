@@ -1,0 +1,100 @@
+.Pdiv{
+    width: 100%;
+    height: 35vh;
+    background: #000000e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.partHr{
+    width: 10%;
+    height: 50px;
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.partHr p{
+    font-family: lato, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.partHr hr{
+    width: 40%;
+    border: 1px solid red;
+}
+.partnerLogoD{
+    width: 80%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: blue; */
+}
+.pLogos{
+    width: 10%;
+    height: 30%;
+}
+.Footer{
+    width: 100%;
+    height: 20vh;
+    /* background: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Footer img{
+    width: 15%;
+    height: 35%;
+}
+.Footer p{
+    font-family:  lato, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media screen and (max-width:360px){
+    .Pdiv{
+        margin-top: 250%;
+        /* width: 100%; */
+        /* height: 25vh; */
+    }
+    .partHr{
+        width: 20%;
+    }
+    .partHr p{
+        font-size: 28px;
+        font-weight: 500;
+
+    }
+    .partHr hr{
+        width: 70%;
+    }
+    .partnerLogoD{
+        width: 90%;
+    }
+    .pLogos{
+        width: 20%;
+        height: 50%;
+    }
+    .Footer{
+        padding: 10px;
+    }
+    .Footer img{
+        width: 40%;
+        height: 40%;
+    }
+    .Footer p{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+
+}

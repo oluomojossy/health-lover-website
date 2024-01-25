@@ -1,0 +1,75 @@
+.maindiv{
+    width: 40%;
+    height: 200px;
+    /* background: blue; */
+    display: flex;
+}
+.imgIndex{
+    width: 30%;
+    height: 80%;
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.checkbox{
+    width: 50%; 
+    height: 50%;
+}
+.photo{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    left: 10px;
+}
+.textIndex{
+    width: 70%;
+    height: 100%;
+    /* background: brown; */
+    display: flex;
+    flex-direction: column;
+}
+.textP{
+    font-family: lato, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    
+}
+.textP2{
+    font-family: lato, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:  rgb(255, 0, 0);
+    margin-bottom: 2px;
+
+
+}
+.textIndex hr{
+width: 5%;
+border: 1px solid gray;
+border-radius: 10px;
+margin-bottom: 10px;
+
+}
+.textP3{
+    font-family: lato, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+@media screen and (max-width:360px){
+    .maindiv{
+        width: 95%;
+    }
+    .checkbox{
+        width: 70%;
+        height: 40%;
+    }
+    .photo{
+        width: 70%;
+        height: 50%;
+    }
+}

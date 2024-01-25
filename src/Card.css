@@ -1,0 +1,65 @@
+.cardBox{
+    width: 17%;
+    height: 35vh;
+    background: rgba(0, 0, 0, 0.623);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 15px;
+    transform: scale(1);
+    transition: all 350ms ease-in;
+    /* justify-content: center; */
+}
+.cardBox:hover{
+    transform: scale(1.1);
+    border: 1px solid white;
+
+}
+.cardBox img{
+    width: 30%;
+    height: 30%;
+    margin-bottom: 5px;
+    /* margin-top: 10px; */
+}
+.CardP{
+font-family:  lato, sans-serif;
+Font-size: 18px;
+Font-weight: 700;
+Line-height: normal;
+color: rgb(236, 82, 66);
+margin-bottom: 5px;
+
+
+}
+.CardP2{
+    font-family:  lato, sans-serif;
+    Font-size: 13px;
+    color: rgb(211, 211, 211);
+    Font-weight: 400;
+    Line-height: normal;
+    text-align: center;
+
+}
+
+@media screen and (max-width:360px){
+.cardBox{
+    width: 90%;
+    height: 15vh;
+    flex-direction: row;
+    gap: 10px;
+}
+.CardP{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.CardP2{
+    font-size: 11px;
+}
+.cardBox img{
+    width: 60%;
+    height: 60%;
+}
+
+
+}

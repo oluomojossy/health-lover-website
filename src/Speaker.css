@@ -1,0 +1,62 @@
+.MainBody{
+    width: 100%; 
+    height: 110vh;
+    /* background: green; */
+}
+
+.FH{
+    /* width: 20%; */
+    /* height: 80px; */
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.FH p{
+    font-family: lato, sans-serif;
+    Font-size: 30px;
+    Font-weight: 700;
+    Line-height: normal;
+    margin-bottom: 10px;
+}
+.FH hr {
+    width: 10%;
+    border: 1px solid red;
+}
+.mainSpeakerD{
+    width: 100%;
+    height: max-content;
+    /* background: green; */
+    padding: 30px;
+}
+.firstD{
+    display: flex;
+    gap: 10%;
+    
+}
+@media screen and (max-width:360px){
+.FH p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.FH hr{
+    width: 30%;
+}
+.firstD{
+    flex-direction: column;
+    /* background: blue; */
+    gap: 30px;
+    padding-bottom: 30px;
+    /* padding-bottom: 5%; */
+    /* width: 90%;
+    height: max-content;
+    background: blue; */
+}
+/* .mainSpeakerD{
+    margin-bottom: 30px;
+} */
+
+
+}
